@@ -31,7 +31,7 @@ This project is designed as a clean and minimal "Hello World" for Zyte’s extra
 
 ## 1. Clone the Repository
 
-git clone https://github.com/YOUR_USERNAME/zyte-sale-alert.git
+git clone https://github.com/apscrapes/zyte-sale-alert.git
 cd zyte-sale-alert
 
 ## 2. Create python environment
@@ -65,7 +65,7 @@ Follow these steps to install and run the project.
 ---
 
 ## 1. Clone the Repository
-git clone https://github.com/YOUR_USERNAME/zyte-sale-alert.git
+git clone https://github.com/apscrapes/zyte-sale-alert.git
 cd zyte-sale-alert
 
 ## 2. Create and Activate a Virtual Environment
