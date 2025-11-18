@@ -103,7 +103,7 @@ zyte-sale-alert/
 ├── requirements.txt
 │
 └── src/
-    └── price_extract_auto.py
+    └── pricedrop.py
 ```
 
 # Troubleshooting
