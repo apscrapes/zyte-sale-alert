@@ -94,7 +94,7 @@ Your script reads the extracted price and prints it.
 No selectors, regex, or HTML parsing required.
 
 # Project Structure
-
+```
 zyte-sale-alert/
 │
 ├── .env
@@ -104,6 +104,7 @@ zyte-sale-alert/
 │
 └── src/
     └── price_extract_auto.py
+```
 
 # Troubleshooting
 
