@@ -31,8 +31,8 @@ This project is designed as a clean and minimal "Hello World" for Zyte’s extra
 
 ## 1. Clone the Repository
 
-git clone https://github.com/apscrapes/zyte-sale-alert.git
-cd zyte-sale-alert
+- git clone https://github.com/apscrapes/zyte-sale-alert.git
+- cd zyte-sale-alert
 
 ## 2. Create python environment
 python3 -m venv venv
