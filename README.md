@@ -31,8 +31,8 @@ This project is designed as a clean and minimal "Hello World" for Zyte’s extra
 
 ## 1. Clone the Repository
 
-git clone https://github.com/YOUR_USERNAME/zyte-price-extractor.git
-cd zyte-price-extractor
+git clone https://github.com/YOUR_USERNAME/zyte-sale-alert.git
+cd zyte-sale-alert
 
 ## 2. Create python environment
 python3 -m venv venv
@@ -65,8 +65,8 @@ Follow these steps to install and run the project.
 ---
 
 ## 1. Clone the Repository
-git clone https://github.com/YOUR_USERNAME/zyte-price-extractor.git
-cd zyte-price-extractor
+git clone https://github.com/YOUR_USERNAME/zyte-sale-alert.git
+cd zyte-sale-alert
 
 ## 2. Create and Activate a Virtual Environment
 pip install -r requirements.txt
@@ -121,7 +121,7 @@ No selectors, regex, or HTML parsing required.
 
 # Project Structure
 
-zyte-price-extractor/
+zyte-sale-alert/
 │
 ├── .env
 ├── .gitignore
