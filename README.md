@@ -27,64 +27,38 @@ This project is designed as a clean and minimal "Hello World" for Zyte’s extra
 1. Create IFTTT automation applet 
 2. Follow these steps to install and run the project.
 
----
-
-## 1. Clone the Repository
-
-- git clone https://github.com/apscrapes/zyte-sale-alert.git
-- cd zyte-sale-alert
-
-## 2. Create python environment
-python3 -m venv venv
-source venv/bin/activate
-A simple beginner-friendly project demonstrating how to use the Zyte API Automatic Extraction feature to scrape structured product data, especially the product price, from an e-commerce product page.
-
-This project is designed as a clean and minimal "Hello World" for Zyte’s extraction capabilities.
-
----
-
-## Features
-
-- Uses Zyte API automatic product extraction (`product: true`)
-- No HTML parsing or selectors required
-- Works with any e-commerce product URL
-- Extracts:
-  - price
-  - currency
-  - name
-  - availability
-- Uses `.env` for secrets
-- Lightweight Python setup suitable for beginners
-
----
-
 # Getting Started
 
 Follow these steps to install and run the project.
 
----
-
 ## 1. Clone the Repository
-git clone https://github.com/apscrapes/zyte-sale-alert.git
-cd zyte-sale-alert
+- git clone https://github.com/apscrapes/zyte-sale-alert.git
+- cd zyte-sale-alert
 
 ## 2. Create and Activate a Virtual Environment
-pip install -r requirements.txt
+```
+python -m venv venv
+.\venv\Scripts\activate
+```
 
 ## 3. Install Dependencies
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 ## 4. Add Your Zyte API Key
 Create a .env file inside the project root and add following 
+```
 ZYTE_API_KEY=your_api_key_here
 EVENT_NAME-your event name from IFTTT
 IFTTT_KEY=your webhook api key from IFTTT
+```
 
 ## 5. Set product URL and target price
-In src/price_extract_auto.py you can setup product URL you want to track and the target price
+In src/pricedrop.py you can setup product URL you want to track and the target price
 
 ## 6. Run the Script
-python src/price_extract_auto.py
+```
+python src/pricedrop.py
+```
 
 ## Example Output
 Price: 51.77
