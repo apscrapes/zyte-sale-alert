@@ -37,8 +37,8 @@ Follow these steps to install and run the project.
 
 ## 2. Create and Activate a Virtual Environment
 ```
-python -m venv venv
-.\venv\Scripts\activate
+python3 -m venv venv
+source venv/bin/activate
 ```
 
 ## 3. Install Dependencies
