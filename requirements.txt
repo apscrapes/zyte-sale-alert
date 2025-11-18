@@ -1,0 +1,3 @@
+zyte-api
+requests
+python-dotenv

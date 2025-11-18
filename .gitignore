@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Output data
+prices.csv
+data/
+
+# macOS junk
+.DS_Store
+
