@@ -55,6 +55,12 @@ IFTTT_KEY=your webhook api key from IFTTT
 ## 5. Set product URL and target price
 In src/pricedrop.py you can setup product URL you want to track and the target price
 
+Example : 
+```
+PRODUCT_URL = "https://outdoor.hylnd7.com/product/a1b2c3d4-e5f6-4a7b-8c9d-000000000293"
+DESIRED_PRICE = 250
+```
+
 ## 6. Run the Script
 ```
 python src/pricedrop.py
